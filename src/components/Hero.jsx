@@ -1,9 +1,27 @@
-import React from 'react'
+import { logo } from "../assets";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <header className="w-full flex justify-center items-center flex-col">
+      <nav className="flex justify-between items-center w-full mb-10 pt-3">
+        <img src={logo} alt="logo" className="w-28 object-contain" />
+        <button
+          type="button"
+          onClick={() =>
+            window.open("https://github.com/Azikenp/AI-summarizer.git")
+          }
+          className="black_btn"
+        >
+          Github
+        </button>
+      </nav>
 
-export default Hero
+      <h1 className="head_text">
+        Summarize articles with <br />{" "}
+        <span className="orange_gradient">Open AI GPT-4</span>
+      </h1>
+    </header>
+  );
+};
+
+export default Hero;
