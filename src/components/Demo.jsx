@@ -18,7 +18,7 @@ const Demo = () => {
             type="url"
             placeholder="Enter a url"
             value=""
-            onChange={() => {}}
+            // onChange={() => {}}
             required
             className="url_input peer"
           />
