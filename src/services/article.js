@@ -12,7 +12,6 @@ export const articleApi = createApi({
         "X-RapidAPI-Host",
         "article-extractor-and-summarizer.p.rapidapi.com"
       );
-
       return headers;
     },
   }),
