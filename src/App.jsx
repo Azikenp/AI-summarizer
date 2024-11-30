@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Demo from "./components/Demo";
-import './App.css'
+import "./App.css";
 
 export default function App() {
   return (
