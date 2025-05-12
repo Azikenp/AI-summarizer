@@ -1,10 +1,11 @@
-import { logo } from "../assets";
-
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="logo" className="w-28 object-contain" />
+        <h1 className="font-extrabold text-[34px] orange_gradient cursor-pointer">
+          {" "}
+          Summa
+        </h1>
         <button
           type="button"
           onClick={() =>
@@ -22,8 +23,9 @@ const Hero = () => {
       </h1>
 
       <h2 className="desc">
-        Simplify your reading with Summize, using this open source article summarizer
-        that transforms lengthy articles into clear and concise summaries.
+        Simplify your reading with Summa, using this open source article
+        summarizer that transforms lengthy articles into clear and concise
+        summaries.
       </h2>
     </header>
   );
