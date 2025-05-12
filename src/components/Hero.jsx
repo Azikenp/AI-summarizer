@@ -11,7 +11,7 @@ const Hero = () => {
           onClick={() =>
             window.open("https://github.com/Azikenp/AI-summarizer.git")
           }
-          className="black_btn"
+          className="red_btn"
         >
           Github
         </button>
@@ -25,7 +25,7 @@ const Hero = () => {
       <h2 className="desc">
         Simplify your reading with Summa, using this open source article
         summarizer that transforms lengthy articles into clear and concise
-        summaries.
+        summaries making assimilating easier.
       </h2>
     </header>
   );
